@@ -45,7 +45,8 @@ func Test_EnglishCleaner_RemoveSpace(t *testing.T) {
 		{"TestCase .30", "정적 자기장을 이용한 Ｃｌ- (염소이온) 채널 과발현 방법", "정적 자기장을 이용한 Cl- (염소이온) 채널 과발현 방법"},
 		{"TestCase .31", "Ｃｌ- channel overexpression using static magnetic fields", "Cl- channel overexpression using static magnetic fields"},
 		{"TestCase .32", "ＳｉnＨ2n+2(n=1,2,3,…)로 나타내는 실란계 가스와, 할로겐화 게르마늄 가스를 원료 가스로서 사용한 플라즈마 CVD법에 의해, 결정구조를 포함하는 실리콘 박막을 기판 위에 성막하는 공정을 행하는 것을 특징으로 하는 박막 반도체장치의 제조 방법.", "SinH2n+2(n=1,2,3,…)로 나타내는 실란계 가스와, 할로겐화 게르마늄 가스를 원료 가스로서 사용한 플라즈마 CVD법에 의해, 결정구조를 포함하는 실리콘 박막을 기판 위에 성막하는 공정을 행하는 것을 특징으로 하는 박막 반도체장치의 제조 방법."},
-		{"TestCase .33", "Structures and Physical Properties of Some Reduced Niobate Compounds : Ba₂Nb_(5)Ｏ_(9), Y_(x)Ba₂- xNb_(5)Ｏ_(9)", "SinH2n+2(n=1,2,3,…)로 나타내는 실란계 가스와, 할로겐화 게르마늄 가스를 원료 가스로서 사용한 플라즈마 CVD법에 의해, 결정구조를 포함하는 실리콘 박막을 기판 위에 성막하는 공정을 행하는 것을 특징으로 하는 박막 반도체장치의 제조 방법."},
+		{"TestCase .33", "Structures and Physical Properties of Some Reduced Niobate Compounds : Ba₂Nb_(5)Ｏ_(9), Y_(x)Ba₂- xNb_(5)O_(9)", "Structures and Physical Properties of Some Reduced Niobate Compounds : Ba₂Nb_(5)O_(9), Y_(x)Ba₂- xNb_(5)O_(9)"},
+		{"TestCase .34", "이면 금속층, Al 기재의 중간층 및 Al 기재의 베어링 합금층을 갖는 슬라이딩 베어링에 있어서, 상기 Al 기재의 베어링 합금층에, Al과 기타의 2종 이상의 원소로 이루어지는 １종 이상의 금속간 화합물로서 입경이 0.5 ㎛미만의 금속간 화합물을８개／㎛2 이상 포함하고, 상기 1종 이상의 금속간 화합물에 있어서, 각 금속간 화합물을 형성하는 원소 중, 가장 많이 함유된 원소와 두 번째로 많이 함유된 원소의 각 금속간 화합물 내에서의 존재 비율은 질량비로 1 이상 10 이하이고, 상기 Al 기재의 베어링 합금층의 경도가 비커스 경도로 50 이상 80 이하인 것을 특징으로 하는 슬라이딩 베어링.", "이면 금속층, Al 기재의 중간층 및 Al 기재의 베어링 합금층을 갖는 슬라이딩 베어링에 있어서, 상기 Al 기재의 베어링 합금층에, Al과 기타의 2종 이상의 원소로 이루어지는 1종 이상의 금속간 화합물로서 입경이 0.5 ㎛미만의 금속간 화합물을8개／㎛2 이상 포함하고, 상기 1종 이상의 금속간 화합물에 있어서, 각 금속간 화합물을 형성하는 원소 중, 가장 많이 함유된 원소와 두 번째로 많이 함유된 원소의 각 금속간 화합물 내에서의 존재 비율은 질량비로 1 이상 10 이하이고, 상기 Al 기재의 베어링 합금층의 경도가 비커스 경도로 50 이상 80 이하인 것을 특징으로 하는 슬라이딩 베어링."},
 	}
 
 	for _, e := range theTests {
