@@ -1,5 +1,5 @@
 package cleaner
 
 type Cleaner interface {
-	removeSpace(input string) string
+	RemoveSpace(input string) string
 }

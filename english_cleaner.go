@@ -7,7 +7,7 @@ import (
 type EnglishCleaner struct {
 }
 
-func (c *EnglishCleaner) removeSpace(input string) string {
+func (c *EnglishCleaner) RemoveSpace(input string) string {
 	utf8Bytes := convertToUTF8(input)
 	return string(utf8Bytes)
 }

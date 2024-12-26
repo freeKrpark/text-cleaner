@@ -51,7 +51,7 @@ func Test_EnglishCleaner_RemoveSpace(t *testing.T) {
 
 	for _, e := range theTests {
 		t.Run(e.name, func(t *testing.T) {
-			result := cleaner.removeSpace(e.text)
+			result := cleaner.RemoveSpace(e.text)
 			if !strings.EqualFold(result, e.expected) {
 				t.Errorf("%s: returned wrong result; expected %s; but got %s", e.name, e.expected, result)
 			}
